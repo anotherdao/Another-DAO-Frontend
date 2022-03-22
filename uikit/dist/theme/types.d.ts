@@ -1,0 +1,85 @@
+export declare type Breakpoints = string[];
+export declare type MediaQueries = {
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    nav: string;
+};
+export declare type Spacing = number[];
+export declare type Radii = {
+    small: string;
+    default: string;
+    card: string;
+    circle: string;
+};
+export declare type Shadows = {
+    level1: string;
+    active: string;
+    success: string;
+    warning: string;
+    focus: string;
+    yellow: string;
+    inset: string;
+};
+export declare type Gradients = {
+    ltr: string;
+    rtl: string;
+    down: string;
+    up: string;
+    background: string;
+    bubblegum: string;
+};
+export declare type Colors = {
+    black: string;
+    primary: string;
+    onPrimary: string;
+    primaryContainer: string;
+    onPrimaryContainer: string;
+    onSecondary: string;
+    secondaryContainer: string;
+    onSecondaryContainer: string;
+    onTertiary: string;
+    tertiaryContainer: string;
+    onTertiaryContainer: string;
+    error: string;
+    onError: string;
+    errorContainer: string;
+    onErrorContainer: string;
+    onBackground: string;
+    outline: string;
+    surfaceVariant: string;
+    onSurfaceVariant: string;
+    primaryBright: string;
+    primaryDark: string;
+    secondary: string;
+    tertiary: string;
+    success: string;
+    failure: string;
+    warning: string;
+    contrast: string;
+    invertedContrast: string;
+    input: string;
+    background: string;
+    backgroundDisabled: string;
+    text: string;
+    textDisabled: string;
+    textSubtle: string;
+    textLight: string;
+    borderColor: string;
+    card: string;
+    yellow: string;
+    white: string;
+    gradients: Gradients;
+    binance: string;
+    green: string;
+};
+export declare type ZIndices = {
+    dropdown: number;
+    modal: number;
+};
+export declare type FontFamily = {
+    titan: string;
+    poppins: string;
+};

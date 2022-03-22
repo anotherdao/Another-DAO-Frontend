@@ -1,0 +1,1 @@
+ssh -i D:\\projects\\key\\product\\wineryland_18.136.157.218.pem ubuntu@18.136.157.218 "cd /var/www/html/dex.winery.land/ && sudo mv ~/dex.winery.land.zip /var/www/html/dex.winery.land/ && sudo unzip -o dex.winery.land.zip && sudo rm -rf /var/www/html/dex.winery.land/dex.winery.land.zip"
